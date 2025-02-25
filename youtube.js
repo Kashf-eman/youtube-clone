@@ -16,11 +16,12 @@ let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 fetch(video_http + new URLSearchParams({
    key: api_key,
    part: 'snippet',
-   chart: 'mostPopular',
-//    q: 'Pakistani Dramas',
-   type:"video",
-maxResults: 50,
-   regionCode: 'PK',
+//    chart: 'mostPopular',
+   q: 'coding',
+//    type:"video",
+maxResults: 80,
+
+//    regionCode: 'PK',
    
 
 }))
